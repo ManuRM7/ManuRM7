@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 20px;
+  }
+  
+  .titulo {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contenido {
+    display: none;
+  }
+  
